@@ -11,10 +11,10 @@
     <property name="target" value="1.7"/>
     <property name="source" value="1.7"/>
     <path id="TestNG.libraryclasspath">
-        <pathelement location="${ECLIPSE_HOME}/plugins/org.testng.eclipse_6.9.5.201506081335/lib/testng.jar"/>
-        <pathelement location="${ECLIPSE_HOME}/plugins/org.testng.eclipse_6.9.5.201506081335/lib/jcommander.jar"/>
-        <pathelement location="${ECLIPSE_HOME}/plugins/org.testng.eclipse_6.9.5.201506081335/lib/bsh-2.0b4.jar"/>
-        <pathelement location="${ECLIPSE_HOME}/plugins/org.testng.eclipse_6.9.5.201506081335/lib/snakeyaml.jar"/>
+        <pathelement location="jars/testng.jar"/>
+        <pathelement location="jars/jcommander.jar"/>
+        <pathelement location="jars/bsh-2.0b4.jar"/>
+        <pathelement location="jars/snakeyaml.jar"/>
     </path>
     <path id="TestNg_Prac.classpath">
         <pathelement location="bin"/>
