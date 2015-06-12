@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Example suite" verbose="1" >
+  <test name="first method Sample test " >
+    <classes>
+      <class name="testcases.SampleTest"/>
+    </classes>
+        
+ </test>
+ 
+ 
+   <test name="second method Upload pic" >
+    <classes>
+      <class name="testcases.uploadpic"/>
+    </classes>
+        
+ </test>
+ 
+   <test name="shiiiiiiiiiiiiiiii" >
+    <classes>
+      <class name="testcases.SampleTest"/>
+    </classes>
+        
+ </test>
+</suite>

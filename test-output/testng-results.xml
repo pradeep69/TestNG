@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" total="9" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Example suite" duration-ms="119" started-at="2015-06-12T05:12:03Z" finished-at="2015-06-12T05:12:03Z">
+    <groups>
+    </groups>
+    <test name="first method Sample test " duration-ms="26" started-at="2015-06-12T05:12:03Z" finished-at="2015-06-12T05:12:03Z">
+      <class name="testcases.SampleTest">
+        <test-method status="PASS" signature="testCaseLoginTest()[pri:0, instance:testcases.SampleTest@14b04ff6]" name="testCaseLoginTest" duration-ms="9" started-at="2015-06-12T07:12:03Z" finished-at="2015-06-12T07:12:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseLoginTest -->
+        <test-method status="PASS" signature="testCaseA1()[pri:0, instance:testcases.SampleTest@14b04ff6]" name="testCaseA1" duration-ms="0" started-at="2015-06-12T07:12:03Z" finished-at="2015-06-12T07:12:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseA1 -->
+        <test-method status="PASS" signature="testCaseRegister()[pri:0, instance:testcases.SampleTest@14b04ff6]" name="testCaseRegister" duration-ms="0" started-at="2015-06-12T07:12:03Z" depends-on-methods="testcases.SampleTest.testCaseLoginTest" finished-at="2015-06-12T07:12:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseRegister -->
+        <test-method status="PASS" signature="testCasePassword()[pri:0, instance:testcases.SampleTest@14b04ff6]" name="testCasePassword" duration-ms="0" started-at="2015-06-12T07:12:03Z" depends-on-methods="testcases.SampleTest.testCaseLoginTest, testcases.SampleTest.testCaseRegister" finished-at="2015-06-12T07:12:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCasePassword -->
+      </class> <!-- testcases.SampleTest -->
+    </test> <!-- first method Sample test  -->
+    <test name="second method Upload pic" duration-ms="2" started-at="2015-06-12T05:12:03Z" finished-at="2015-06-12T05:12:03Z">
+      <class name="testcases.uploadpic">
+        <test-method status="SKIP" signature="uploadpic()[pri:0, instance:testcases.uploadpic@4bd226a7]" name="uploadpic" duration-ms="0" started-at="2015-06-12T07:12:03Z" finished-at="2015-06-12T07:12:03Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[skipping test any reason ]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: skipping test any reason 
+	at testcases.uploadpic.uploadpic(uploadpic.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:648)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:834)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1142)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1176)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1101)
+	at org.testng.TestNG.run(TestNG.java:1009)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uploadpic -->
+      </class> <!-- testcases.uploadpic -->
+    </test> <!-- second method Upload pic -->
+    <test name="shiiiiiiiiiiiiiiii" duration-ms="5" started-at="2015-06-12T05:12:03Z" finished-at="2015-06-12T05:12:03Z">
+      <class name="testcases.SampleTest">
+        <test-method status="PASS" signature="testCaseLoginTest()[pri:0, instance:testcases.SampleTest@3995638a]" name="testCaseLoginTest" duration-ms="1" started-at="2015-06-12T07:12:03Z" finished-at="2015-06-12T07:12:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseLoginTest -->
+        <test-method status="PASS" signature="testCaseA1()[pri:0, instance:testcases.SampleTest@3995638a]" name="testCaseA1" duration-ms="0" started-at="2015-06-12T07:12:03Z" finished-at="2015-06-12T07:12:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseA1 -->
+        <test-method status="PASS" signature="testCaseRegister()[pri:0, instance:testcases.SampleTest@3995638a]" name="testCaseRegister" duration-ms="0" started-at="2015-06-12T07:12:03Z" depends-on-methods="testcases.SampleTest.testCaseLoginTest" finished-at="2015-06-12T07:12:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseRegister -->
+        <test-method status="PASS" signature="testCasePassword()[pri:0, instance:testcases.SampleTest@3995638a]" name="testCasePassword" duration-ms="0" started-at="2015-06-12T07:12:03Z" depends-on-methods="testcases.SampleTest.testCaseLoginTest, testcases.SampleTest.testCaseRegister" finished-at="2015-06-12T07:12:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCasePassword -->
+      </class> <!-- testcases.SampleTest -->
+    </test> <!-- shiiiiiiiiiiiiiiii -->
+  </suite> <!-- Example suite -->
+</testng-results>
