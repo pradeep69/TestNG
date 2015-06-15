@@ -55,4 +55,16 @@
         <property name="build.compiler" value="org.eclipse.jdt.core.JDTCompilerAdapter"/>
         <antcall target="build"/>
     </target>
+    
+    
+    
+	<!-- run -->
+    <target name="run" depends="build-project">
+        <testng classpath="${TestNg_Prac.classpath}:${TestNg_Prac.dest}" suitename="Example suite">	
+            <xmlfileset  includes="testng.xml"/>
+        </testng>
+     
+    </target>
+    
+    
 </project>
